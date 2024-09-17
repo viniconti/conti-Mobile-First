@@ -1,10 +1,12 @@
+
+
+
 .fotoperfil {
     height: 250px;
     width: 250px;
     background-color: rgb(206, 206, 206);
     border-radius: 50%;
 }
-
 .bloco1 {
     display: flex;
     justify-content: center;
@@ -27,16 +29,15 @@
 }
 
 
-.card1 {
+.card1 {    
     height: 345px;
     width: 300px;
     background-color: darkgray;
     margin-left: 7%;
     border-radius: 50px;
-    background-image: url(./pngwing.com.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 50px;
+    background-image: url(./nike.com.png);
+    background-size: cover;
+    background-position-y: -60px;
 }
 
 .card2{
@@ -45,7 +46,7 @@
     background-color: darkgray;
     margin-left: 7%;
     border-radius: 50px;
-    background-image: url(./pngwing.com\ \(1\).png);
+    background-image: url(./adidas.com\ \(1\).png);
     background-size: cover;
     background-position: 52%;
     background-position-y: -78px;
@@ -57,7 +58,7 @@
     background-color: darkgray;
     margin-left: 7%;
     border-radius: 50px;
-    background-image: url(./pngwing.com\ \(2\).png);
+    background-image: url(./puma.com.png);
     background-size: cover;
     background-position: 52%;
     background-position-y: -63px;
@@ -67,7 +68,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 10%;
-    margin-left: 230px
+    margin-left: 50px
 }
 
 .nike {
@@ -84,8 +85,14 @@
     margin-left: 120px;
     margin-top: 90%;
 }
-@media(max-width: 767px){
 
+@media(max-width: 767px){
+.fotoperfil{
+    margin-left: 20%;
+}
+.sub{
+    margin-left: -10%;
+}
    .bloco1{
     display: flex;
     flex-direction: column;
@@ -93,12 +100,18 @@
    .bloco2{
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 1%;
    }
+.car1{
+    margin-top: 30px;
+}
 .card2{
-    margin-top: 8%;
+    margin-top: 30px;
 }
-
-
+.card3{
+    margin-top: 30px;
 }
-
+.h1{
+    margin-left: 20%;
+}
+}
