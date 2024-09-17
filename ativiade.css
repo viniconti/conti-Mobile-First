@@ -1,0 +1,104 @@
+.fotoperfil {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 50%;
+}
+
+.bloco1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-right: 16%;
+}
+
+.h1 {
+    margin-left: 80px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    margin-left: 82px;
+}
+
+
+.card1 {
+    height: 345px;
+    width: 300px;
+    background-color: darkgray;
+    margin-left: 7%;
+    border-radius: 50px;
+    background-image: url(./pngwing.com.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+}
+
+.card2{
+    height: 345px;
+    width: 300px;
+    background-color: darkgray;
+    margin-left: 7%;
+    border-radius: 50px;
+    background-image: url(./pngwing.com\ \(1\).png);
+    background-size: cover;
+    background-position: 52%;
+    background-position-y: -78px;
+}
+
+.card3 {
+    height: 345px;
+    width: 300px;
+    background-color: darkgray;
+    margin-left: 7%;
+    border-radius: 50px;
+    background-image: url(./pngwing.com\ \(2\).png);
+    background-size: cover;
+    background-position: 52%;
+    background-position-y: -63px;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 230px
+}
+
+.nike {
+    margin-left: 120px;
+    margin-top: 90%;
+}
+
+.adidas {
+    margin-left: 110px;
+    margin-top: 90%;
+}
+
+.puma {
+    margin-left: 120px;
+    margin-top: 90%;
+}
+@media(max-width: 767px){
+
+   .bloco1{
+    display: flex;
+    flex-direction: column;
+   }
+   .bloco2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+   }
+.card2{
+    margin-top: 8%;
+}
+
+
+}
+
