@@ -1,4 +1,4 @@
-# mobile-first
+# Modo de desenvolvimento
 
 Eucomeçei fazendo o Dasktop-first para depois adaptar para Mobile-first.
   Eu separei as div em container, geral, bloco1 e bloco2 para organizar melhor,
