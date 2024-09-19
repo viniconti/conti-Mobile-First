@@ -10,9 +10,11 @@ Eu começei fazendo o site para telas maiores para depois adaptar para Mobile-fi
    } para que tudo que estivesse dentro dele fosse adaptado para telas menores abaixo de 768px,
      eu começei deixando o bloco1 em coluna e centralizei os itens, a mesma coisa com o bloco2.
        Nos cards eu coloquei ".card1, .card2, .card3{}" para economizar tempo, deixei um espaço entre as imagens, e ajustei os margin rigth.
-
-       Minha dificuldade foi fazer uma div com a divisão de cores.
-
+       
+        Minha dificuldade foi fazer uma div com a divisão de cores.
+        
+       Meu site eu me inspirei com se fosse uma página do músico com as músicas mais populars de spotfy
+      
 
        Vinicius Conti
        RA:012887
