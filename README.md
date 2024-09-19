@@ -1,6 +1,6 @@
 # Modo de desenvolvimento
 
-Eucomeçei fazendo o site para telas maiores para depois adaptar para Mobile-first.
+Eu começei fazendo o site para telas maiores para depois adaptar para Mobile-first.
   Eu separei as div em container, geral, bloco1 e bloco2 para organizar melhor,
   fiz uma div para cada elemento.
 
